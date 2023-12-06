@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&family=PT+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.2.0/css/all.min.css" >
+</head>
+<body>
+   <div id="header">
+    <div class="container">
+        <nav>
+            <img src="../images/logo.png" class="logo">
+      
+            <ul id="sidemenu" >
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark"onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars-staggered" onclick="openmenu()"></i>
+        </nav>      
+        
+        <div class="header-text">
+            <p>Web Developer</p>
+            <h1>HELLO WORLD, <br>I'm <span>Nkosinathi</span><br>Sibanyoni</h1>
+        </div>
+    </div>
+   </div> 
+ <!----About------>
+   <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="../images/img5.jpg">
+            </div>
+            <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>Hello World, My name is Nkosinathi Sibanyoni from South Africa.<br>
+              I have a passion for web developement and an interest in softerware
+              developement.<br>I always look for ways to learn and grow so give me 
+              any project I will probably build it ofcourse with the help of YOUTUBE.<br>
+
+              With me its always work, work and <b>CHRIST</b>
+            </p>
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')" >Skills</p>
+                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>UX/UI</span><br>Web Designing </li>
+                    <li><span>Web Development</span><br>Web app Development</li>
+                    <li><span>Spring Boot/Thymeleaf</span><br>CRUD Web Applications</li>
+
+                </ul>
+            </div>
+            <div class="tab-contents"id="experience">
+                <ul>
+                    <li><span>2023-Current</span><br> Freelancing</li>
+                    
+
+                </ul>
+            </div>
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>2024</span><br>University of Johannesburg Studying Information Systems</li>
+                    <li><span>2023</span><br>Web designing at UNISA</li>
+                    <li><span>2023</span><br>Amazon EMR AWS</li>
+                    <li><span>2022</span><br>NSC Bachelors Pass</li>
+
+                </ul>
+            </div>
+            </div>
+        </div>
+    </div>
+   </div>
+
+<!-----services------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+        <div>
+            <i class="fa-solid fa-code"></i>
+        <h2>Web Design</h2>
+        <p>As a web designer, I offer a comprehensive range of services 
+            tailored to meet the unique needs of my clients. 
+            With a keen eye for aesthetics and a commitment to functionality,
+             I specialize in creating visually appealing and user-friendly websites.</p>
+             <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop-simple"></i>
+            <h2>CRUD Web Application</h2>
+            <p> I specialize in providing robust and efficient solutions for managing and
+                 manipulating data within web applications.
+                 My services encompass a range of offerings 
+                 designed to streamline data operations and enhance overall system functionality.</p>
+                 <a href="#">Learn more</a>
+              </div>
+            
+        </div>  
+    </div>
+</div>
+
+<!-------porfolio--------->
+<div id="portfolio">
+<div class="container">
+    <h1 class="sub-title">My Work</h1> 
+    <div class="work-list">
+        <div class="work">
+            <img src="../images/work1.png" alt="">
+            <div class="layer">
+                <h3>Math and Science Website</h3>
+                <p>The Website was build for my final year mark project at UNISA </p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="../images/work2.png" alt="">
+            <div class="layer">
+                <h3>A Responsive Church Website</h3>
+                <p>Got inspired to build a website for my own local Church 
+                    .
+                </p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="../images/work3.png" alt="">
+          <div class="layer">
+                <h3>Contact Web Page</h3>
+                <p>A user friendly page designed for user experience.</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="../images/work4.png" alt="">
+            <div class="layer">
+                <h3>Download Past Papers Web Page</h3>
+                <p>It offers past papers all the way from 2017,we have MATHS,PHYSICS,MATH LIT & TECH MATH</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+       </div>
+    <a href="https://github.com/Uhmnathi/Uhmnathi.github.io" class="btn">See more</a>
+    </div>
+</div>
+
+<!--------contact-------->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p> <i class="fa-solid fa-paper-plane"></i> <a href="mailto:snkosinathi676@gmail.com">snkosinathi676@gmail.com</a></p>
+                <p><i class="fa-solid fa-square-phone"></i><a href="tel:+27 679 461 235">+27 679 461 235</a></p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/nkosinathi-
+                    sibanyoni-a116a5260/?lipi=urn%3Ali%3Apage%3Ad_flagship3_
+                    feed%3BObTVs9gJQPG50q4t9CSYPA%3D%3D"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Uhmnathi/Uhmnathi.github.io"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.tiktok.com/@uhm_nathi"><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+                <a href="#" download class="btn btn2 " >Download My CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message" ></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+      <p>All Rights Reserved by &copy;Nathi</p>
+    </div>
+</div>
+
+
+
+   <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+
+ </script>
+
+ <script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0"
+    }
+
+    function closemenu(){
+        sidemenu.style.right = "-200px"
+    }
+ </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwaFrV8ikKbFihYRYk5zfrA74avYf_-SiNfHeo6LUGSYv5GPPDW3n4r4o6TNDS5BKXN9w/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent succesfully"
+            setTimeout(function(){
+            msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script
+</body>
+</html>
